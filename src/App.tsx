@@ -1,8 +1,12 @@
-import './App.css'
+import Header from "./components/Header/Header"
 
 
 export default function App() {
   return (
-    <h1>checkpoint</h1>
+    <body>
+      <div>
+        <Header />
+      </div>
+    </body>
   )
 }
